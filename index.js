@@ -1,5 +1,4 @@
-function add(a, b) {
-  return a + b;
-}
+const { shoutText } = require('./text');
 
-module.exports = add;
+const message = shoutText('hello world');
+console.log(message);
